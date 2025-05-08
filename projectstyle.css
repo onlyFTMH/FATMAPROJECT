@@ -1,0 +1,126 @@
+/*هنا غيرت الخطوط لان الخطوط التلقائية سيئة */
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+
+header {
+    background-color: #7c7892;
+    padding: 40px;
+    text-align: center;
+    font-family: "Chango", sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    color: #f7f1ef;
+    border-bottom: 6px solid #cac5d8;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poiret One", sans-serif;
+    font-weight: bold;
+    background-color: rgb(239, 231, 228);
+    color: #7c7892;
+}
+
+h3 {
+    color: #7c7892;
+    text-align: center;
+    margin: 20px auto;
+    height: 40px;
+    font-family: "Coiny", system-ui;
+}
+
+h2 {
+    color: #7c7892;
+    text-align: center;
+    margin: 20px auto;
+    width: 85%;
+    height: 120px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    max-width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    color: #7c7892;
+    font-size: 1.1em;
+    background-color: #dacacb;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(124, 120, 146, 0.2);
+}
+
+nav.navigation ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 30px 0;
+    height: 120px;
+    
+}
+
+nav.navigation ul li {
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+
+nav.navigation ul li a {
+    text-decoration: none;
+    color: #f7f1ef;
+    font-family: "Coiny", system-ui;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #7c7892;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+nav.navigation ul li a:hover {
+    background-color: #cac5d8;
+    color: #7c7892;
+    transform: scale(1.05);
+    
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #d2c6c7;
+    font-family: "Poiret One", sans-serif;
+    font-weight: bold;
+    width: 70%;
+    font-size: 1.6em;
+    border-radius: 8px;
+   
+}
+
+td {
+    padding: 10px;
+    border: 3px solid #f7f1ef;
+}
+
+footer {
+    background-color: #cac5d8;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+    color: #7c7892;
+    font-family: "Chango", sans-serif;
+}
+
+footer h4 {
+    color: #7c7892;
+    margin-top: 20px;
+}
+
+footer img {
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
